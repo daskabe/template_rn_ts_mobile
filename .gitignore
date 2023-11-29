@@ -21,6 +21,10 @@ output.json
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
+build/
+.gradle
+local.properties
+*.hprof
 
 # Keystore files
 *.jks
@@ -31,3 +35,31 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Expo
+.expo/
+web-build/
+
+#CocoaPods
+/ios/Pods
+
+# Bundle artifacts
+*.jsbundle
+
+# node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+tsconfig.tsbuildinfo
+coverage
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+.DS_Store
+.env.local
+.env
+
